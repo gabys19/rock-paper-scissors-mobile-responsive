@@ -91,6 +91,7 @@ main > .scoreboard{
     border-radius:10px;
     cursor: pointer;
     transition: transform .7s ease;
+    display: none;
 }
 
 #play-again:hover{
