@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockPaperScissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="fixed-background">
+      <main class="wrapper">
+        <h1>HUMAN VS MACHINE</h1>
+        <p>
+          Win 5 rounds against the computer in a game of rock paper scissors!
+        </p>
+        <div id="buttons-wrapper">
+          <div id="rock" class="rock" data-choice="rock">
+            <img src="props/rock.png" />
+          </div>
+          <div id="paper" class="paper" data-choice="paper">
+            <img src="props/paper.png" />
+          </div>
+          <div id="scissors" class="scissors" data-choice="scissors">
+            <img src="props/scissors.png" />
+          </div>
+        </div>
+        <div class="scoreboard">
+          <div class="players">
+            <div class="player">
+              <p>HUMAN</p>
+              <p id="player-score">0</p>
+            </div>
+            <div class="computer">
+              <p>MACHINE</p>
+              <p id="computer-score">0</p>
+            </div>
+          </div>
+        </div>
+        <div class="message">
+          <p id="round-message">Choose your weapon!</p>
+          <button id="play-again">Play again</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
