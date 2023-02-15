@@ -69,6 +69,7 @@ let getComputerChoice = () => {
   }
 };
 
+//evaluate rounds
 let playRound = (player, computer) => {
   if (playerWins === 5 || compWins === 5) {
     pickWinner(playerWins, compWins);
@@ -118,6 +119,7 @@ let playRound = (player, computer) => {
   }
 };
 
+//pick winner and display final message
 let pickWinner = (playerWins, compWins) => {
   if (playerWins === 5 && compWins < 5) {
     console.log("Human Wins!");
