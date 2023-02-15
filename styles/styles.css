@@ -25,3 +25,76 @@ main{
 .wrapper > h1,p{
     text-align: center;
 }
+
+.wrapper >h1{
+    font-size: 4rem;
+}
+
+.wrapper>p{
+    font-size: 2rem;
+}
+
+#buttons-wrapper{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+
+img{
+    width: 8rem;
+    height: 8rem;
+}
+
+#buttons-wrapper > .rock,.paper,.scissors{
+    border:3px solid white;
+    background-color: white;
+    padding:0.5rem;
+    border-radius:10px;
+    cursor: pointer;
+    transition: transform .7s ease;
+}
+
+#buttons-wrapper > .rock:hover,.paper:hover,.scissors:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+main > .scoreboard{
+    width: 100%;
+    margin-top:2rem;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+    font-size: 2rem;
+}
+
+.message{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#play-again{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    padding:0.4rem 2rem;
+    color:white;
+    background-color: #000000;
+    border:3px solid white;
+    border-radius:10px;
+    cursor: pointer;
+    transition: transform .7s ease;
+}
+
+#play-again:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 1px white;
+}
+
